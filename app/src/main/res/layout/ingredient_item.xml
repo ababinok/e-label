@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="56dp"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    tools:context=".activities.MainActivity">
+
+    <ImageView
+        android:id="@+id/harm_image"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription=""
+        android:padding="4dp"
+        android:src="@drawable/round_border" />
+
+    <TextView
+        android:id="@+id/harm_text"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:textColor="@color/accent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="4.4" />
+
+    <TextView
+        android:id="@+id/ingredient_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/primary_text"
+        android:textSize="16sp"
+        tools:text="Название ингредиента" />
+
+</FrameLayout>
