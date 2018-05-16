@@ -63,7 +63,7 @@
                 android:layout_margin="16dp"
                 android:gravity="center"
                 android:minHeight="32dp"
-                android:text="@string/scan_or_input_barcode"
+                android:text="@string/scan_or_enter_barcode"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/primary_text" />
 

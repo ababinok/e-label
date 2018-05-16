@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">eLabel</string>
+    <string name="enter_barcode">Ввести штрихкод</string>
+    <string name="scan_or_enter_barcode">Отсканируйте или введите штрихкод вручную</string>
 </resources>
